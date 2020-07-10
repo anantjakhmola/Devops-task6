@@ -2,7 +2,7 @@ job("kube")
 {
  description ("my kube job 1")
 scm {
-github ('anantjakhmola/jenkins-project-','master')
+github ('anantjakhmola/Devops-task3','master')
 }
 configure { it / 'triggers' / 'com.cloudbees.jenkins.GitHubPushTrigger' / 'spec' }
 steps{
